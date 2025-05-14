@@ -1,0 +1,70 @@
+.team {
+    width: 100%;
+    margin-top: 1rem;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 5px; */
+}
+
+.team__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.team__item {
+    max-width: 400px;
+    width: 100%;
+    background-color: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.team__info {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+
+    h3 {
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 0.9rem;
+        color: var(--text);
+        margin-top: 0.5rem;
+        padding: 1rem;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: underline;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+}
+
+.team__github {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--accent);
+    text-decoration: underline;
+}

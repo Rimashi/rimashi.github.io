@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>team</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a class="header__logo" href="./index.html">
+                    <img class="header__logo-img" src="../pictures/logo.svg" alt="Logo" />
+                    <div class="header__logo-text__container">
+                        <h2 class="header__logo-text">Аттестация переводчиков русского жестового языка</h2>
+                    </div>
+                </a>
+
+                <button class="burger" id="burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="header__nav" id="nav">
+                    <nav class="header__menu">
+                        <a class="header__menu-item header__link" href="./index.html">Главная</a>
+                        <a class="header__menu-item header__link" href="./about.html">О проекте</a>
+                        <a class="header__menu-item header__link" href="./journal.html">Журнал</a>
+                        <a class="header__menu-item header__link" href="./sourses.html">Ресурсы</a>
+                        <a class="header__menu-item header__link" href="./team.html">Команда</a>
+                        <button class="theme-toggle" onclick="toggleTheme()" title="Переключить тему">
+                            <img src="../pictures/Moon.svg" alt="Переключить тему" class="icon-moon" />
+                            <img src="../pictures/Sun.svg" alt="Переключить тему" class="icon-sun" />
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__container">
+                <h2 class="main__container-name">Система аттестации переводчиков русского жестового языка</h2>
+                <section class="index">
+                    <div class="index__list">
+                        <div class="index__item">
+                            <div class="index__info">
+                                <h3>Введение</h3>
+                                <p>Данный проект разрабатывается в рамках учебной прaктики и направлен на создание
+                                    веб-платформы для проведения аттестации переводчиков русского жестового языка (РЖЯ).
+                                </p>
+                                <p>
+                                    Ключевые особенности проекта:
+                                </p>
+                                <ul>
+                                    <li>- Автоматизация процесса тестирования и сертификации</li>
+                                    <li>- Удобный интерфейс для кандидатов и экзаменаторов</li>
+                                    <li>- Система хранения и обработки результатов</li>
+                                    <li>- Генерация отчетов и сертификатов</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="index__item">
+                            <div class="index__info">
+                                <h3>Текущий статус проекта</h3>
+                                <p>На данный момент завершены основные этапы проектирования системы и разработки,
+                                    проект проходит тестирование и отладку. В ближайшее время планируется
+                                    завершение всех этапов разработки и запуск системы в эксплуатацию.
+                                </p>
+                                <p>Подробнее о ходе работы можно узнать в <a href="./journal.html"
+                                        class="content__link">журнале проекта</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__container">
+                    <div class="footer__row">
+                        <div class="footer__column">
+                            <div class="footer__logo">
+                                <img class="footer__logo-img" src="../pictures/logo.svg" alt="Logo" />
+                                <h2 class="footer__logo-text">Аттестация переводчиков русского жестового языка</h2>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__column-name">
+                                <h2>Разделы</h2>
+                            </div>
+                            <div class="footer__menu">
+                                <ul class="menu__list-footer">
+                                    <li class="menu__item-footer footer__link"><a href="#home">Главная</a></li>
+                                    <li class="menu__item-footer footer__link"><a href="#about">О проекте</a></li>
+                                    <li class="menu__item-footer footer__link"><a href="#log">Журнал</a></li>
+                                    <li class="menu__item-footer footer__link"><a href="#resources">Ресурсы</a></li>
+                                    <li class="menu__item-footer footer__link"><a href="./team.html">Команда</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__column-name">
+                                <h2>Контакты</h2>
+                            </div>
+                            <div class="footer__contacts">
+                                <ul class="footer__contacts-list">
+                                    <li class="footer__contacts-item">
+                                        <label for="">
+                                            <img src="../pictures/phone.svg" alt="Phone" />
+                                            <span><a class="footer__link" href="tel:+79262334664">+7 (926)
+                                                    233-46-64</a></span>
+                                        </label>
+                                    </li>
+                                    <li class="footer__contacts-item">
+                                        <label for="">
+                                            <img src="../pictures/location_on.svg" alt="Location" />
+                                            <span><a class="footer__link" href="https://yandex.ru/maps/-/CHvB4T7m">Большая Семёновская улица,
+                                                    38с12</a></span>
+                                        </label>
+                                    </li>
+                                    <li class="footer__contacts-item">
+                                        <label for="">
+                                            <img src="../pictures/mail.svg" alt="Email" />
+                                            <span><a class="footer__link"
+                                                    href="mailto:alex@harlamenkov.ru">alex@harlamenkov.ru</a></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__container">
+                        <div class="footer__copyright">
+                            <p>&copy; 2023 Жест-Аттестация. Все права защищены.</p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+<script src="../scripts/script.js"></script>
+
+</html>
